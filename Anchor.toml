@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+gif = "55rQC8rwCWLmk5cbvSLYtBf4VrwkXNmFJ8vQoNiZoCLE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/sanchit/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gif.js"
